@@ -1,11 +1,10 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    host: 'localhost',
-    user: 'postgres',
-    password: 'root',
-    database: 'sgp',
-
+    host: 'ec2-3-234-109-123.compute-1.amazonaws.com',
+    user: 'weijtiouqslkyn',
+    password: '9ac870d5e2094a4fdd1aa6762d26d27d9b30861449398852abaa98d82099f2df',
+    database: 'd90d73cj3l3nov',
 });
 
 const getProjects = async(req, res) => {
